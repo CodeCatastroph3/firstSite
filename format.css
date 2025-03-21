@@ -16,7 +16,7 @@ flex: 1 1 auto;
 background-color: #1F2937;
 font-family: "Roboto", Roboto, Serif;
 display: flex;
-align-items: center;
+justify-content: center;
 
 }
 
@@ -26,6 +26,7 @@ align-items: center;
 	flex-direction: column;
 	justify-content: center;
 	flex: 1 1 auto;
+	border: 5px solid red;
 	}
 
 	.left div{
@@ -35,22 +36,27 @@ align-items: center;
 		.logo {
 		font-size: 24px;
 		align-content: flex-start;
+		border: 5px solid red;
 		}
 
 		.intro1 {
 			flex: 2 1 auto;
 			font-size:48px;
+			font-weight: 900;
+			border: 5px solid red;
 
 		}
 		.intro2 {
 		font-size:18px;
 		color: #E5E7EB;
+		border: 5px solid red;
 	}
 
 	.right{
 	flex: 1 1 auto;
 	display: flex;
 	flex-direction: column;
+	border: 5px solid red;
 	}
 
 	.right p{
@@ -60,12 +66,29 @@ align-items: center;
 
 
 .two{
-
-
+  display: flex;
+ // flex-direction: column;
+  border: 5px solid red;
 }
+
+	.info{
+		font-size: 36px;
+		color: #1F2937;
+		font-weight: 900;
+		flex: 1 1 auto;
+		border: 5px solid red;
+	}
+
+	.pics{
+		flex:1 1 auto;
+		border: 5px solid red;
+
+	}
 
 .three{
 background-color: #E5E7EB;
+color: #1F2937;
+font-size: 36px;
 }
 
 .bottom{
