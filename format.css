@@ -1,0 +1,31 @@
+/* format.css */
+
+.page {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.page div {
+flex: 1 1 auto;
+height: 200px;
+}
+
+ .top {
+ background-color: #1F2937;
+
+}
+
+.two{
+flex: 1 1 auto;
+
+}
+
+.three{
+background-color: #E5E7EB;
+}
+
+.bottom{
+
+}
