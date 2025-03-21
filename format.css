@@ -3,22 +3,64 @@
 .page {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 
 }
 
 .page div {
 flex: 1 1 auto;
-height: 200px;
+//height: 200px;
 }
 
- .top {
- background-color: #1F2937;
+.top {
+background-color: #1F2937;
+font-family: "Roboto", Roboto, Serif;
+display: flex;
+align-items: center;
 
 }
+
+	.left{
+	color: #F9FAF8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex: 1 1 auto;
+	}
+
+	.left div{
+	flex: 1 1 auto;
+	}
+
+		.logo {
+		font-size: 24px;
+		align-content: flex-start;
+		}
+
+		.intro1 {
+			flex: 2 1 auto;
+			font-size:48px;
+
+		}
+		.intro2 {
+		font-size:18px;
+		color: #E5E7EB;
+	}
+
+	.right{
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+	}
+
+	.right p{
+	flex: 1 1 auto;
+	background-color: grey;
+	}
+
 
 .two{
-flex: 1 1 auto;
+
 
 }
 
