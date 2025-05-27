@@ -68,6 +68,8 @@ justify-content: center;
 		font-size: 14px;
 		text-decoration: none;
 		flex: 0 0 auto;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 
 	.right p{
