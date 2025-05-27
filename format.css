@@ -1,5 +1,10 @@
 /* format.css */
-
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  
 .page {
 	display: flex;
 	flex-direction: column;
@@ -19,10 +24,6 @@ display: flex;
 justify-content: center;
 
 }
-	.gaps{
-	flex: 1 1 auto;
-	margin: 10px;
-	}
 
 	.left{
 	color: #F9FAF8;
@@ -42,6 +43,7 @@ justify-content: center;
 		align-content: flex-start;
 		//border: 5px solid red;
 		margin-bottom: 60px;
+		margin-top: 10px;
 		}
 
 		.intro1 {
@@ -74,6 +76,7 @@ justify-content: center;
 
 	.right p{
 		text-align: center;
+		margin-top: 10px;
 	}
 
 	.right img{
